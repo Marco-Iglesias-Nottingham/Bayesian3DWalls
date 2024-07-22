@@ -15,7 +15,7 @@ ID='3D'
     
 #with h5py.File('Ensemble_'+ID+'.hdf5', 'r') as f:
 #    data = np.array(f['Data/data'])
-mat = sio.loadmat('./Real_Data/Data_for_EKI.mat')
+mat = sio.loadmat('../Real_Data/Data_for_EKI.mat')
 HFs =np.array(mat['HFs'])
 T_surf_int =np.array(mat['T_surf_int'])
 T_surf_ext =np.array(mat['T_surf_ext'])
